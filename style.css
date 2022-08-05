@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    color: white;
+    
+}
+body{
+    background-image: url(./img/netflix-cosplay.jpg);
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.41);
+    text-align: center;
+    margin: 20px;
+}
+.flix{
+    color: red;
+}
+.form{
+    width: 330px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    color: black;
+}
+.form_hiza{
+    text-align: left;
+    padding: 10px;
+}
+.labe-hiza{
+    margin-bottom: 10px;
+}
+#list{
+    color: black;
+    font-size: 15px;
+}
+li{
+    list-style-type: none;
+}
+.submit{
+    text-align: center;
+}
+#sub-button{
+    background-color: red;
+    border-radius: 12px;
+    width: 100px;
+    height: 30px;
+}

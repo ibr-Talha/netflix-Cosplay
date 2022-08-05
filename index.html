@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>NET<span class="flix">FLIX</span></h1>
+            <h3>Thank you for signing up at Netflix. Tell us more about yourself</h3>
+        </header>
+
+        <div class="form">
+            <form action="#">
+                <div class="form_hiza">
+                    <div class="labe-hiza">
+                        <label for="name">Name</label><br /><br>
+                        <input type="text" id="name" size="50px" placeholder="Enter your name"
+                            style="min-height: 30px;">
+                    </div>
+                    <div class="labe-hiza">
+                        <label for="age">Age</label><br /><br>
+                        <input type="text" id="age" size="50px" placeholder="Age" style="min-height: 30px;">
+                    </div>
+                    <div class="labe-hiza">
+                        <label for="mail">Email</label><br /><br>
+                        <input type="text" id="mail" size="50px" placeholder="Enter your email"
+                            style="min-height: 30px;">
+                    </div>
+                    <div class="labe-hiza">
+                        <label for="list">Content Type</label><br><br>
+                        <select name="list" id="list" style="min-width:310px">
+                            <option value="" selected>Series</option>
+                            <option value="">Aksiyon</option>
+                            <option value="">Komedi</option>
+                            <option value="">Drama</option>
+                            <option value="">Aşk</option>
+                            <option value="">Gerilim</option>
+                        </select>
+                    </div>
+                    <div class="movieType">
+                        <label for="movie">Movie Type</label><br>
+                        <ul>
+                            <li><input type="checkbox" name="comedy" id="movie"> Comedy</li>
+                            <li><input type="checkbox" name="action" id="movie"> Action</li>
+                            <li> <input type="checkbox" name="romance" id="movie" checked> Romance</li>
+                        </ul>
+                    </div>
+                    <br>
+                    <div class="gender">
+                        <label for="gender"> Gender</label>
+                        <ul>
+                            <li><input type="radio" name="gender" id="male"> Male</li>
+                            <li><input type="radio" name="gender" id="female"> Female</li>
+                            <li><input type="radio" name="gender" id="other"> Other</li>
+                        </ul>
+                    </div>
+                    <br>
+                    <div class="feedback">
+                        <label for="feedback">Feed back</label>
+                        <textarea name="yorum" id="feedback" cols="35" rows="5" placeholder="Any comment"></textarea>
+                    </div>
+                    <div class="submit">
+                        <input type="button" value="Submit" id="sub-button">
+                    </div>
+
+
+
+
+                </div>
+        </div>
+
+</body>
+
+</html>
